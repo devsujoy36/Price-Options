@@ -67,7 +67,7 @@ const PriceOptions = () => {
   ]
 
   return (
-    <div className="max-w-screen-2xl my-10 md:mx-auto mx-5">
+    <div className="max-w-screen-2xl my-10 md:mx-auto mx-16">
       <h2 className="text-3xl font-bold text-center my-10">Best Prices in the Town</h2>
       <div className="grid md:grid-cols-4 grid-cols-1 gap-6">
 
