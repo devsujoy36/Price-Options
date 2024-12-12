@@ -2,7 +2,7 @@
 
 const Link = ({route}) => {
     return (
-        <li className="px-3 md:py-2 rounded-md hover:text-emerald-500 border-transparent hover:border-emerald-400 border transition-all">
+        <li className="px-5 font-semibold text-xl md:py-2 rounded-md hover:text-emerald-500 border-transparent hover:border-emerald-400 border transition-all">
             <a href={route.path}>{route.name}</a>
         </li>
     )
