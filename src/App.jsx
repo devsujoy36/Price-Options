@@ -9,9 +9,8 @@ function App() {
   return (
     <>
       <NavBar />
-      <Phones />
       <PriceOptions />
-      <LineChart />
+      <Phones />
     </>
   )
 }

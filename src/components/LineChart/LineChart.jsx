@@ -18,8 +18,8 @@ const LineChart = () => {
 
 
     return (
-        <div className="max-w-screen-2xl my-10 md:mx-auto mx-16">
-            <LChart width={730} height={250} data={studentsMarks} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
+        <div>
+            <LChart width={800} height={300} data={studentsMarks} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                 <XAxis dataKey="name" />
                 <YAxis />
                 <CartesianGrid strokeDasharray="3 3" />
