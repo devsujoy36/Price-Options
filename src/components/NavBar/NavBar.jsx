@@ -14,7 +14,7 @@ const NavBar = () => {
     ];
 
     return (
-        <nav className="flex justify-between items-center max-w-screen-2xl md:mx-auto px-5 py-3 md:shadow-none shadow-lg border">
+        <nav className="flex justify-between items-center max-w-screen-2xl md:mx-auto px-5 py-3 md:shadow-none shadow-lg">
             <div>
                 <a href="" className="font-bold text-4xl">Price Options</a>
             </div>
