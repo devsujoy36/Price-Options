@@ -19,15 +19,28 @@ const LineChart = () => {
 
     return (
         <div>
-            <LChart width={800} height={300} data={studentsMarks} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-                <XAxis dataKey="name" />
-                <YAxis />
-                <CartesianGrid strokeDasharray="3 3" />
-                <Tooltip />
-                <Line name="math" type="monotone" dataKey="math" stroke="#8684d8" />
-                <Line name="physics" type="monotone" dataKey="physics" stroke="#8884d8" />
-                <Line name="chemistry" type="monotone" dataKey="chemistry" stroke="#82ca9d" />
-            </LChart>
+            <div className=''>
+                <LChart width={400} height={150} data={studentsMarks} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <Tooltip />
+                    <Line name="math" type="monotone" dataKey="math" stroke="#8684d8" />
+                    <Line name="physics" type="monotone" dataKey="physics" stroke="#8884d8" />
+                    <Line name="chemistry" type="monotone" dataKey="chemistry" stroke="#82ca9d" />
+                </LChart>
+            </div>
+            <div className='hidden md:block'>
+                <LChart width={800} height={300} data={studentsMarks} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <Tooltip />
+                    <Line name="math" type="monotone" dataKey="math" stroke="#8684d8" />
+                    <Line name="physics" type="monotone" dataKey="physics" stroke="#8884d8" />
+                    <Line name="chemistry" type="monotone" dataKey="chemistry" stroke="#82ca9d" />
+                </LChart>
+            </div>
         </div>
     )
 }

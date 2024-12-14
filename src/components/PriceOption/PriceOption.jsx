@@ -9,8 +9,8 @@ const PriceOption = ({ option }) => {
         <div className="border p-5 rounded-lg shadow-lg flex flex-col gap-3">
             <div className="text-center">
 
-                <h2 className="">
-                    <span className="text-6xl">{price}</span>
+                <h2 className="flex md:flex-row  justify-center items-center">
+                    <span className="text-5xl font-bold">{price}</span>
                     <span className="text-3xl">/-Month</span>
                 </h2>
                 <h4 className="text-3xl">{name}</h4>
