@@ -19,7 +19,7 @@ const LineChart = () => {
 
     return (
         <div>
-            <div className=''>
+            <div className='md:hidden'>
                 <LChart width={400} height={150} data={studentsMarks} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     <XAxis dataKey="name" />
                     <YAxis />

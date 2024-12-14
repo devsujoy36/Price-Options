@@ -31,7 +31,7 @@ const Phones = () => {
         <div className="max-w-screen-2xl mx-auto">
             <h1 className="mt-10 mb-5 text-5xl font-semibold text-center">Phones: {phones.length}</h1>
 
-            <div className="">
+            <div className="md:hidden">
                 {loading ?
                     <div className="w-full h-56 flex justify-center items-center">
                         <InfinitySpin
